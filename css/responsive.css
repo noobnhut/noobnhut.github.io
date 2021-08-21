@@ -1,0 +1,87 @@
+/*Pc*/
+@media (min-width:1024px)
+{
+#header .mobile-menu-btn{
+    display: none;
+}
+}
+
+/*tablet*/
+@media (min-width:740px) and (max-width:1023px)
+{
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    #slider .text-work{
+        font-size: 22px;
+        margin-top: 160px;
+        letter-spacing: 2px;
+    }
+}
+
+/*mobile*/
+@media (max-width:739px)
+{
+    /*cach 2 de bien nhieu cot thanh 1 cot */
+    /*tao class s-col-full {width:100%;}*/
+#slider .text-heading,
+#slider .text-work{
+    font-size: 18px;
+}
+#slider .text-work{
+    font-size: 12px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+    
+#nav>li
+{
+    display:block;
+}
+#nav li a{
+    padding :1px 24px;
+}
+#nav{
+    display:block;
+}
+#nav .subnav{
+    position: initial;
+    background: black;
+    
+}
+#nav .subnav a{
+    color: white;
+    padding:5px 41px;
+}
+#nav>li:first-child{
+    display: inline-block;
+}
+#header .search-btn{
+    display: none;
+}
+#header{
+    overflow: hidden;
+}
+
+#content .about-text {
+    font-size: 15px;
+   
+}
+#content .menu-item {
+    margin-top: 15x;
+    width: 100%;
+}
+.menu-tour{
+    margin-bottom: 16px;
+    width: 100%;
+
+}
+.menu-contact{
+width: 100%;
+margin-top: 16px;
+}
+.s-full-width{
+    width: 100%!important;
+    
+}
+}
