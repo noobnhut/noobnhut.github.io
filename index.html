@@ -14,7 +14,12 @@
 
 <body>
     <div id="main">
+<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
         <div id="header">
             <!--bat dau nav-->
             <ul id="nav">
@@ -287,14 +292,9 @@ var headerHeight = header.clientHeight
                 }
             }
         }
-    <!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
+    
+    </script>
+  <script>
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "108891428176326");
       chatbox.setAttribute("attribution", "biz_inbox");
@@ -317,8 +317,6 @@ var headerHeight = header.clientHeight
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-    </script>
-
 </body>
 
 </html>
